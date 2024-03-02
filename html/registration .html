@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+        input[type="submit"]
+        {
+            background-color: green;
+            width:1300px;
+        }
+        input[type="text"]
+        {
+            width:1300px;
+        }
+        select
+        {
+            background: peachpuff;
+            width:1300px;
+        }
+        input[type="date"]
+        {
+            background: peachpuff;
+            width:1300px;
+        }
+        input[id="one"]{
+            background: peachpuff;
+        }
+        </style>
+    </head>
+
+    <body>
+        <fieldset>
+            <h1>student Registration Form</h1>
+            <label for="name">First Name: </label>
+                <input type="text" name="firstname"  maxlength="17" id="one" ><br>
+            <br>
+            <label for="name">Last Name: </label>
+                <input type="text" name="firstname"  maxlength="17" id="one"><br>
+            <br>
+            <label for="name">E-mail: </label>
+                <input type="text" name="firstname"  maxlength="17" id="one"><br>
+                <br>
+            <label for="name">Gender:</label><br>
+                <select size="1">
+                    <option>male</option>
+                    <option>female</option>
+                    <option>others</option>
+                </select>
+                <br>
+                <br>
+            <label for="name">Date of birth:</label>
+            <br>
+                <input type="date" id="start" name="trip-start" id="one"/>
+            <br><br>
+            <label for="name">Profile picture:</label>
+            <br>
+            <input type="file" name="file" accept="image">
+            <br>
+            <br>
+    
+            <input type="submit" onclick="alert('registration successful')">
+        </fieldset>
+        
+    </body>
+</html>
